@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root > div select {
+  display: block;
+  visibility: hidden;
+}
+
+#root > div select.visible {
+  visibility: visible;
+}
